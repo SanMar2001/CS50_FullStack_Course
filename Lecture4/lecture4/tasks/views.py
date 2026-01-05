@@ -1,7 +1,7 @@
-from django.shortcuts import render
-from django import forms
-from django.http import HttpResponseRedirect
-from django.urls import reverse
+from django.shortcuts import render # type: ignore
+from django import forms # type: ignore
+from django.http import HttpResponseRedirect # type: ignore
+from django.urls import reverse # type: ignore
 
 class NewTaskForm(forms.Form):
     task = forms.CharField(label="New Task")
